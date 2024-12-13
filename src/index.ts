@@ -252,6 +252,8 @@ export default class Pikaso<Shapes extends BaseShapes = BaseShapes> {
     const history = new History(this.settings, events)
     const board = new Board(this.settings, events, history)
 
+    console.log("hihihihihihihihih")
+
     this.selection = board.selection
 
     this.flip = new Flip(board)
